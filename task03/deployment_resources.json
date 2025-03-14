@@ -40,12 +40,10 @@
     "dependencies": [],
     "resources": {
       "/hello": {
-        "enable_cors": false,
         "GET": {
           "authorization_type": "NONE",
           "integration_type": "lambda",
           "lambda_name": "hello_world",
-          "enable_proxy": true,
           "api_key_required": false,
           "method_request_parameters": {},
           "integration_request_body_template": {},
